@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: 150vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(poster1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    height: 80px;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.netflix-logo {
+    height: 77px;
+    width: 180px;
+}
+
+.login-button {
+    padding: 7px 14px;
+    font-size: 14px;
+    background-color: #E50915;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+.langLink{
+    text-decoration: none;
+    padding: 3px 10px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    font-size: 18px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(98, 98, 98);
+
+}
+.download-picture{
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    border: 2px solid rgb(110, 110, 110);
+    background-color: black;
+    padding: 15px 5px;
+    width: 330px;
+    border-radius: 10px;
+    
+}
+.downloading-video{
+    width: 50px;
+}
+hr {
+    height: 8px;
+    background-color: rgb(48, 48, 48);
+    border: none;
+}
+
+.right-buttons {
+    margin-right: 30px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.netflix-title {
+    margin-top: 210px;
+    text-align: center;
+    display: flex;
+    row-gap: 24px;
+    flex-direction: column;
+}
+
+.main-heading {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.sub-heading {
+    font-size: 25px;
+}
+
+.message-heading {
+    font-size: 20px;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+#email-id {
+    width: 380px;
+    padding: 20px 17px;
+    background-color: black;
+    outline: none;
+    border: 2px solid rgb(111, 111, 111);
+    border-radius: 3px;
+}
+
+#email-button {
+    text-decoration: none;
+    padding: 13px 22px;
+    background-color: #E50915;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+#email-id:focus {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.mini-tv {
+    margin-top: 60px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.discription1 {
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+}
+
+.discription1 p {
+    width: 500px;
+}
+
+.discription1 h1 {
+    width: 440px;
+}
+
+#television {
+    height: 370px;
+}
+
+.faq-mainheading {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.faq {
+    margin-top: 100px;
+    padding: 15px 25px;
+}
+
+.faq-box {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 24px;
+    margin-bottom: 8px;
+    background-color: rgb(44, 44, 44);
+    transition: all 0.2s;
+}
+
+.faq-box:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+.discription-faq {
+    padding: 5px;
+    font-size: 25px;
+    padding: 40px 24px;
+    background-color: rgb(44, 44, 44);
+    margin-bottom: 8px;
+}
+
+.newClass {
+    display: none;
+}
+.email-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.footer-links{
+    margin-top: 40px;
+    padding: 20px;
+}
+.footer-links p{
+    color: rgb(185, 185, 185);
+    margin-left: 10px;
+}
+a{
+    font-size: 14px;
+    color: rgb(208, 208, 208);
+}
+.links{
+    padding: 10px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 150px;
+    row-gap: 10px;
+    margin-top: 25px;
+}
+
+.tv-video1{
+    position: absolute;
+    z-index: -1;
+    top: 830px;
+    right: 90px;
+    width: 360px;
+}
+.tv-video2{
+    position: absolute;
+    z-index: -1;
+    top: 1777px;
+    right: 120px;
+    width: 310px;
+}
+
+.footer-end{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+@media (max-width: 600px) {
+    .mini-tv {
+        flex-direction: column;
+    }
+
+    .registration {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
